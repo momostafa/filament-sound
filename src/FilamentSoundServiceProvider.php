@@ -8,11 +8,13 @@ use Filament\Facades\Filament;
 use Filament\Navigation\UserMenuItem;
 use Filament\PluginServiceProvider;
 use FilamentSound\FilamentSound\Resources\SoundResource;
+use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 use FilamentSound\FilamentSound\FilamentSound;
 use FilamentSound\FilamentSound\Models\SoundSetting;
 
-class FilamentSoundServiceProvider extends PluginServiceProvider
+class FilamentSoundServiceProvider extends PackageServiceProvider
 {
     protected array $scripts = [
         'filament-sound-js' => __DIR__ . '/../dist/script.js',
