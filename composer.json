@@ -62,9 +62,6 @@
             "providers": [
                 "FilamentSound\\FilamentSound\\FilamentSoundServiceProvider"
             ],
-            "dont-discover": [
-            "filament/filament"
-            ],
             "aliases": {
                 "FilamentSound": "FilamentSound\\FilamentSound\\Facades\\FilamentSound"
             }
