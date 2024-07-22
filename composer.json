@@ -59,6 +59,9 @@
     },
     "extra": {
         "laravel": {
+            "dont-discover": [
+            "filament/filament"
+            ],
             "providers": [
                 "FilamentSound\\FilamentSound\\FilamentSoundServiceProvider"
             ],
